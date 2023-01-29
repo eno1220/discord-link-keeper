@@ -8,9 +8,13 @@
   </head>
   <body>
     <div id="container">
-      <div id="title">Discord link keeper</div>
-      <textarea id="memo" placeholder="memo"></textarea>
-      <button id="submit">Submit</button>
+      <textarea id="memo" placeholder="enter your note"></textarea>
+      <div id="box">
+        <span class="msg" id="msg-success">Success!</span>
+        <span class="msg" id="msg-error">Error!</span>
+        <span class="msg" id="msg-no-url">URL is not set!</span>
+        <button id="submit">Submit</button>
+      </div>
     </div>
     <script src="index.js"></script>
   </body>
